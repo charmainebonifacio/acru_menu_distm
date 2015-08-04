@@ -4,7 +4,7 @@
 ! CREATED BY   : Dr. Stefan W. Kienzle
 ! DATE EDITED  : November 12, 2012
 ! REVISED BY   : Charmaine Bonifacio
-! DATE REVISED : May 8, 2015
+! DATE REVISED : July 14, 2015
 !-------------------------------------------------------------------
 ! DESCRIPTION  : The program will create a new MENU file.
 ! REQUIREMENT  : MUST run the .EXE file within the input directory.
@@ -150,7 +150,7 @@ LOGICAL :: EX
       CLOSE(30)
       CLOSE(20)
 !***********************************************************************
-! Time Elapsed
+! ELAPSED TIME
 !***********************************************************************
       CALL DATE_AND_TIME(DATEINFO, TIMEINFO)
       CALL SYSTEM_CLOCK(COUNT_1, COUNT_RATE, COUNT_MAX)
